@@ -1,0 +1,92 @@
+#body{
+    width: 80%;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 79%;
+    background-color: white;
+    opacity: 0.7;
+}
+nav>a{
+    text-decoration-line: none;
+    color:black;
+    transition: all 0.15s;
+    padding: 20px;
+    border-radius: 10px;
+}
+nav>a:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
+   
+}
+#scooty{
+    background-image: url("https://www.rapido.bike/images/home_img_new.webp");
+    border: 2px solid;
+    height: 500px;
+}
+#logo{
+    width: 100px;
+}
+
+#btn1{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#rapidoimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rapidoimg>img,#women{
+    width: 70%;
+}
+.p{
+    width: 50%;
+    padding: 20px;
+}
+#fleximg,#whatsnew{
+    text-align: center;
+}
+#bottomimg{
+    width: 100%;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    background-color: black;
+    
+}
+ul{
+    justify-content: space-evenly;
+}
+
+#footer>ul>li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
